@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+  <include layout="@layout/head"/>
+
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/search_flights"
+            android:background="@drawable/yuang_bg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Search Flights"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/reserve_seat"
+            android:background="@drawable/yuang_bg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Reserve Seat"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/amenities"
+            android:background="@drawable/yuang_bg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Amenities"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+
+        <Button
+            android:id="@+id/about_our_airlines"
+            android:background="@drawable/yuang_bg"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="About Our Airlines"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+</LinearLayout>
