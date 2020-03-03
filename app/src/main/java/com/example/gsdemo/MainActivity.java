@@ -32,14 +32,16 @@ public class MainActivity extends AppCompatActivity {
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.search_flights:
+                startActivity(new Intent(this, SearchingForFlights.class));
                 break;
             case R.id.reserve_seat:
+                startActivity(new Intent(this, SeatReservation.class));
                 break;
             case R.id.amenities:
-                startActivity(new Intent(this,ListingofAmenities.class));
+                startActivity(new Intent(this, ListingofAmenities.class));
                 break;
             case R.id.about_our_airlines:
-                startActivity(new Intent(this,AboutAmonic.class));
+                startActivity(new Intent(this, AboutAmonic.class));
                 break;
         }
     }

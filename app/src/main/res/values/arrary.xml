@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="port">
+        <item>AUH</item>
+        <item>BAH</item>
+        <item>DOH</item>
+        <item>RYU</item>
+        <item>CAI</item>
+    </string-array>
+</resources>
